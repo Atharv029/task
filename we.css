@@ -1,0 +1,977 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Medical_Website_Development-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+   
+    height: 700px;
+    z-index: 10px;
+   
+}
+
+.logo{
+    position: absolute;
+    width: 188px;
+    height: 121px;
+    top: -30px;
+    left: -27px;
+    filter: invert(100%);
+}
+.navbarcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #293291;
+    padding: 14px;
+    position: absolute;
+    width: 1235px;
+   height: 22px;
+   max-width: 100%
+
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10;
+    position: absolute;
+    right: 10px;
+}
+.navbar{
+    margin: 0px 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+.navbar a:hover {
+    background-color: #8bbeec;
+    border-radius: 4px;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+.no{
+    background-color: red;
+    width: 250px;
+    height: 8.5%;
+    position: absolute;
+    top: -15.8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 207px;
+    color: white;
+    padding: 0px 2px;
+}
+.mainpage{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 25rem;
+    z-index: 10px;
+    
+}
+
+.mainpage p{
+    width: 147%;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 78% ;
+    
+}
+.mainpage h2{
+    font-size: 3rem;
+    font-family: 'Georgia', serif;
+    
+}
+
+.btn1{
+    position: absolute;
+    top: 158% ;
+    width: 120px;
+    height: 35px;
+   
+    border: 1px solid black;
+    background-color: #293291 ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    z-index: 4;
+
+}
+
+.btn1:hover{
+    border: 1.5px solid white; 
+}
+
+.line{
+    position: absolute;
+    top:691px;
+    color: #9be6ad;
+    width: 1261px;
+    height: 2.5px;
+
+    size: 1000px;
+    background-color: #9be6ad;
+    z-index: -20px;
+    
+    
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    
+  }
+  
+  .card {
+    width: 250px;
+    margin: 15px;
+    border: 1px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    background-color:#3b428d ;
+    border-radius: 8px;
+    height: 248px;
+    border-bottom: 5.5px solid #18d942;
+  }
+ 
+  
+  .card-content {
+    padding: 15px;
+    color: #ffffff;
+    font-family:  CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+    padding-bottom: 2px;
+
+    
+  }
+  
+  .card-content h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 97px;
+  }
+  
+  .card-content p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    position: absolute;
+    width: 188px;
+    bottom: 41px;
+  }
+  .card-content h3 {
+    margin: 0;
+    font-size:1.6rem;
+    position: absolute;
+    top: 151px;
+    color: #4db367;
+    left: 660px;
+  }
+
+  .card-content li{
+    position: relative;
+    list-style: none;
+    gap: 10px;
+    padding: 10px;
+    top: 110px;
+    word-spacing: 10px;
+    font-size: 1rem;
+  }
+
+  li.time {
+    top: -4.5px;
+    left: 141px;
+    font-size: 1rem;
+}
+
+.call{
+    position: absolute;
+    top: 10px;
+    right: 2px;
+}
+
+.card-content img{
+    position: absolute;
+    width: 106px;
+    height: 80px;
+    top: 13px;
+    left: 17px;
+    max-width: 100%;
+}
+
+
+img.app {
+    position: absolute;
+    width: 106px;
+    height: 80px;
+    top: 3px;
+    left: 321px;
+}
+
+img.emg {
+    position: absolute;
+    width: 106px;
+    height: 80px;
+    top: 11px;
+    left: 614px;
+}
+
+.p2c{
+    position: absolute;
+    top: 470px;
+    left: 20px;
+    font-size: 1.6rem;
+}
+.contentp2 img{
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    height: 120%;
+}
+.contentp2 p{
+    position: absolute;
+    top: 560px;
+    left: 20px;
+    font-size: 1.2rem;
+    width: 500px;
+}
+
+.btn2{
+    position: absolute;
+    top: 810px ;
+    width: 120px;
+    height: 35px;
+    
+    border: 1px solid black;
+    background-color: #293291 ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    left: 15px;
+
+}
+
+.btn2:hover{
+    border: 2.5px solid #4db367; 
+}
+
+
+.container2 {
+    background-image: url('medical-healthcare-blue-color_1017-26807.avif');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 1220px;
+    margin: 20px;
+    padding: 20px;
+   background-color: #e3e3e3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    position: absolute;
+    top: 330%;
+    left: -210px;
+    height: 172%;
+}
+
+.heading2 {
+    position: absolute;
+    margin-bottom: 20px;
+    top: 10%;
+    left: 16%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.6rem;
+    color: black;
+    border-bottom:  solid lightgreen;
+    border-width: thin;
+    
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.cards1 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    height: 60%;
+    top: 30%;
+    width: 60%;
+    left: 16%;
+}
+.card1 {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+}
+.card1 img {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+}
+.cardscontent {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.paragraph {
+    flex: 1;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 23.5%;
+    right: 5%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn3{
+    position: absolute;
+    top: 440px ;
+    width: 120px;
+    height: 35px;
+    
+    border: 1px solid black;
+    background-color: #293291 ;
+    border-radius: 10px;
+    color: white;
+    right: 8.5%;
+    
+
+}
+
+.btn3:hover{
+    border: 2.5px solid #4db367; 
+}
+
+.container3 {
+    max-width: 1224px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1254px;
+    height: 172%;
+    position: absolute;
+    top: 368%;
+    left: -21px;
+}
+.cardgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    gap: 20px;
+
+}
+.card3 {
+    background-color: #f6f7fc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 196px;
+    width: 231px;
+    top: 160px;
+}
+.card3 img {
+    width: 58%;
+    height: auto;
+    border-radius: 5px;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+   
+}
+.cardcontent3 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.services{
+    position: absolute;
+    top: 40px;
+    left: 215px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+    border-bottom:  solid lightgreen;
+    border-width: thin;
+    font-size: 2.5rem;
+    
+}
+
+.cointer4{
+    max-width: 1224px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url('luxa.org-opacity-changed-b3.avif');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1226px;
+    height: 55%;
+    position: absolute;
+    top: 546.5%;
+    left: -21px;
+    max-width: 98%;
+    
+}
+.cointer5{
+    max-width: 1226px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #080c3b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1223px;
+    height: 75%;
+    position: absolute;
+    top: 608.3%;
+    left: -21px;
+   
+}
+
+.help{
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.info{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.rem;
+    top: 33%;
+}
+
+.btn4{
+    position: absolute;
+    top: 200px ;
+    width: 150px;
+    height: 35px;
+    
+    border: 1px solid black;
+    background-color: #293291 ;
+    border-radius: 10px;
+    color: white;
+    right: 46.5%;
+  border-bottom: 3px solid #78df91;
+    margin: 5px;
+    
+
+}
+
+.btn4:hover{
+    border: 2.5px solid white;; 
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.links a {
+    display: block;
+    padding: 10px;
+    background-color: #80a1f3;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    width: 171px;
+    font-size: 1rem;
+}
+.address {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 3%;
+    color: white;
+    font-size: 1.1rem;
+}
+.h3{
+    position: absolute;
+    top: 5px;
+    left: 3.5%;
+    font-size: 2rem;
+    color: white;
+}
+
+img.screen {
+    width: 214px;
+    height: 169px;
+    object-fit: cover;
+}
+
+p.exams {
+    position: relative;
+    top: -16px;
+}
+
+p.exams2{
+    position: relative;
+    top: -20px;
+}
+
+.socialbuttons {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 282px;
+    right: 69px;
+}
+
+.socialbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.socialbutton:hover {
+    background-color: rgb(205, 227, 248);
+}
+
+.socialbutton img {
+    width: 24px;
+    height: 24px;
+}
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 600px){
+    
+
+    .mainpage {
+        font-size: 2rem;
+    }
+
+    .mainpage h2 {
+        font-size: 2.5rem;
+        position: relative;
+        top: -88px;
+    }
+    .menu-icon {
+        display: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        right: 312px;
+        top: 2px;
+        opacity: 1;
+    }
+    .logo {
+       
+        left: 152px;
+        filter: invert(100%);
+    }
+
+    .card-container {
+       
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+   
+    
+    body{
+        background-image: none;
+        background-color: #cde8fa;
+    }
+
+    .cointer5 {
+        position: absolute;
+        top: 736%;
+        width: 288px;
+        height: 658px;
+}
+.cointer4 {
+    position: absolute;
+    top: 673%;
+    background-color: white;
+    width: 90%;
+}
+  
+
+h2.services {
+    position: absolute;
+    
+    top: 1%;
+    left: 20px;
+        font-size: 1.8rem;
+    }
+
+
+.card {
+  
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: -36px;
+        width: 222px;
+        top: 27px;
+        
+}
+.no{
+    opacity: 0;
+} 
+
+.mainpage p {
+    width: 97%;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 48%;
+}
+.card-content li {
+    position: relative;
+    list-style: none;
+    gap: 10px;
+    padding: 10px;
+    top: 110px;
+    word-spacing: 10px;
+    font-size: 1rem;
+    left: -51px;
+    display: block;
+}
+li.time {
+    top: -4.5px;
+    left: 78px;
+    font-size: 1rem;
+}
+.cardgrid {
+    display: grid;
+    grid-template-columns: repeat(6, 5fr);
+    gap: 20px;
+    overflow: auto;
+    height: 56%;
+}
+.card3 {
+    background-color: #f6f7fc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: -13px;
+    width: 280px;
+    top: 113px;
+    height: 329px;
+}
+.container3 {max-width: 1217px;
+
+padding: 22px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 278px;
+height: 173%;
+position: absolute;
+top: 312%;
+left: -21px;
+z-index: 10;
+}
+.line {
+    opacity: 0;
+}
+.container2 {
+    width: 114%;
+    left: -35px;
+    top: 685px;
+    height: auto;
+    position: relative;
+    margin: -21px;
+    padding: 21px;
+    z-index: 20;
+}
+.help {
+    font-size: 1.5rem;
+}
+.info {
+    
+    width: 93%;
+    left: 5%;
+    
+    
+    top: 33%;
+    font-size: 13px;
+}
+.btn4 {
+    right: 26.5%;
+}
+.socialbuttons {
+    display: flex;
+    gap: 36px;
+    position: absolute;
+    top: 374px;
+    right: 53px;
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    gap: 8px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: -43px;
+}
+.links a {
+    display: block;
+    padding: 10px;
+    background-color: #80a1f3;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 90px;
+    left: -58px;
+    width: 129px;
+    font-size: 1rem;
+}
+.heading2 {
+    top: 1%;
+    left: 35%;
+    font-size: -7.6rem;
+}
+.card1 {
+  
+    width: -11px;
+    height: 31%; 
+    
+}
+.content {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards1 {
+    flex-direction: row;
+    width: 60%;
+    left: 16%;
+    height: 60%;
+    top: 30%;
+}
+
+.paragraph {
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 23.5%;
+    right: 5%;
+}
+
+.btn3 {
+    position: absolute;
+    top: 440px;
+    right: 8.5%;
+    margin: 0;
+}
+
+
+.heading2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards1 {
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: auto;
+    left: 0;
+    gap: 10px;
+}
+
+.paragraph {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: auto;
+    right: 0;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.btn3 {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+img.app {
+    position: absolute;
+    width: 106px;
+    height: 80px;
+    top: 3px;
+    left: 321px;
+}
+
+img.emg {
+    position: absolute;
+    width: 106px;
+    height: 80px;
+    top: 11px;
+    left: 614px;
+}
+
+img.app {
+    position: absolute;
+        width: 107px;
+        height: 90px;
+        top: -6%;
+        left: 0px;}
+img.emg {
+    position: absolute;
+    width: 106px;
+    height: 80px;
+    top: 1%;
+    left: -6px;
+}
+.card-content h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 47%;
+    color: #4db367;
+    left: 35px;
+}
+.contentp2 p {
+    position: absolute;
+    top: 1065px;
+    left: 20px;
+    font-size: 1.2rem;
+    width: 500px;
+}
+.p2c {
+    position: absolute;
+    top: 104%;
+    left: 20px;
+    font-size: 1.6rem;
+}
+.contentp2 img {
+    position: absolute;
+    top: 906px;
+    left: 550px;
+    height: 36%;
+}
+.card-content img {
+     
+        position: absolute;
+        width: 106px;
+        height: 80px;
+        top: 0px;
+        left: 11px;
+        max-width: 100%;
+    
+}
+
+
+     .navbar {
+        display: none;
+        flex-direction: column;
+        background-color:#567cc0; 
+         width: 100%x;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .navbar.active {
+        display: flex;
+        right: 932px;
+        height: 107vh;
+        width: 188px;
+        z-index: 10;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .logo {
+        left: 165px;
+        filter: invert(100%);
+    }
+    .navbar a {
+        font-size: 24px; 
+        padding: 10px;
+        font-size: 26px;
+        padding: 10px;
+        position: relative;
+        top: -38px;
+        left: 25px;
+        justify-content: start;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+

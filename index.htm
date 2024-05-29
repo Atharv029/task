@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Med</title>
+    <script>
+        function toggleNavbar() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+        document.addEventListener('click', function(event) {
+        if (!navbar.contains(event.target) && !menuIcon.contains(event.target)) {
+            navbar.classList.remove('active');
+        }});
+    </script>
+    
+    <link rel="stylesheet" href="we.css">
+</head>
+<body>
+    <header>
+       
+        <div class="navbarcontainer">
+            <div class="menu-icon" onclick="toggleNavbar()">&#9776;</div>
+          <img src="logo2-removebg-preview.png" alt="" class="logo">
+
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Request an Appointment</a></li>
+                
+            </ul>
+        </div>
+        <p class="no">For Emergenices:+2569845685</p>
+    </header>
+    <div class="mainpage">
+        <h2 class="heading">Medicine made 
+            <br>
+            with Care
+        </h2>
+        <p> Discover cutting-edge treatments and personalized care to enhance your well being.</p>
+        <button class="btn1">Read More</button>
+    </div>
+    <hr class="line">
+    <div class="page2">
+        <div class="card-container">
+            <div class="card" data-audio="audio1">
+
+              <div class="card-content">
+                <img src="Screenshot_2024-05-28_201406-removebg-preview.png" alt="" class="time">
+                <h2>Working Hours</h2>
+                <li>Monday-Friday    </li> 
+                <li>Saturday </li>
+                <li>Sunday </li>
+                <li class="time">8.00-19.00</li>
+                <li class="time">10.00-22.00</li>
+                <li class="time"> 9.00-23.00</li>
+              </div>
+            </div>
+            <div class="card" >
+              
+              <div class="card-content">
+               <img src="Screenshot_2024-05-28_201338-removebg-preview.png" alt="453" class="app">
+                <h2>Appointments</h2>
+                <p>Booking an appointment with our experienced medical professionals is quick and easy. Simply select your preferred date and time.
+                
+              </div>
+            </div>
+            <div class="card">
+              
+              <div class="card-content">
+          <img src="Screenshot_2024-05-28_201252-removebg-preview.png" alt="" class="emg" >
+                <h2>Emergency Cases</h2>
+                <h3>+1595682645</h3>
+                <p>In a medical emergency, quick and decisive action can save lives. </p>
+                
+              </div>
+              <div class="contentp2">
+                <img src="2_docator_2-removebg-preview.png" alt="">
+                <h2 class="p2c">A great medical team to help your need</h2>
+                <p>Our medical team comprises highly skilled and experienced professionals dedicated to providing exceptional healthcare. Each member, from doctors and nurses to support staff, is committed to patient-centered care and continuous learning. With a compassionate approach, they ensure that every patient receives personalized treatment and attention</p>
+                <button class="btn2">Read More</button>
+              </div>
+            </div>
+            <div class="container2">
+              <h1 class="heading2">Our Services</h1>
+              <div class="content">
+                  <div class="cards1">
+                      <div class="card1">
+                          <img src="Screenshot 2024-05-28 222632.png" alt="Image 1">
+                          <div class="cardscontent">
+                              <p>PLASTIC SURGERY</p>
+                              <p>Dr. James Smith</p>
+                          </div>
+                      </div>
+                      <div class="card1">
+                          <img src="Screenshot 2024-05-28 222645.png" alt="Image 2">
+                          <div class="cardscontent">
+                              <p>GASTROENTEROLOGY</p>
+                              <p>Dr.Gunter Roscoe</p>
+                          </div>
+                      </div>
+                      <div class="card1">
+                          <img src="Screenshot 2024-05-28 222657.png" alt="Image 3">
+                          <div class="cardscontent">
+                              <p>DENTISTRY</p>
+                              <p>Dr. Maria Willliams</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="paragraph">
+                      <p>Our medical department offers a full range of healthcare services, ensuring that each patient receives personalized and compassionate care.</p>
+                  </div>
+              </div>
+              <button class="btn3">Read More</button>
+          </div>
+         
+            
+    </div>
+    <div class="container3">
+        <h2 class="services">Our Featured Service</h2>
+        <div class="cardgrid">
+            <div class="card3">
+                <img src="Screenshot_2024-05-29_102848-removebg-preview.png" alt="Image 1">
+                <div class="cardcontent3">
+                    <p style="font-weight: bold; font-size: larger;">Free Checkups</p>
+                    <p>Avail your free health checkup today and take the first step towards a healthier you!</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="Screenshot_2024-05-29_104114-removebg-preview (2).png" alt="Image 2" class="screen">
+                <div class="cardcontent3">
+                    <p style="font-weight: bold; font-size: larger;" class="exams">Screening Exams</p>
+                    <p class="exams2">Screening exams are essential medical tests that help detect potential health issues early.</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="Screenshot_2024-05-29_104119-removebg-preview.png" alt="Image 3">
+                <div class="cardcontent3">
+                    <p style="font-weight: bold; font-size: larger;">RMI Services</p>
+                    <p>RMI Services provides advanced diagnostic imaging to ensure accurate and timely. </p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="Screenshot_2024-05-29_104125-removebg-preview.png" alt="Image 4">
+                <div class="cardcontent3">
+                    <p style="font-weight: bold; font-size: larger;">Dentistry</p>
+                    <p>Dentistry is a vital medical field focused on the diagnosis, prevention, and treatment of oral health issues.</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="Screenshot_2024-05-29_104727-removebg-preview.png" alt="Image 5">
+                <div class="cardcontent3">
+                    <p style="font-weight: bold; font-size: larger;">Neonatology</p>
+                    <p>Neonatology is a specialized field of medicine focused on the care and treatment of newborn infants.</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="Screenshot_2024-05-29_104139-removebg-preview (1).png" alt="Image 6">
+                <div class="cardcontent3">
+                    <p style="font-weight: bold; font-size: larger;" >Biochemistry</p>
+                    <p>Biochemistry explores the chemical processes within and related to living organisms, providing crucial insights.</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="cointer4">
+        <h2 class="help">Need a personal health plan...?</h2>
+        <p class="info">Developing a personalized health plan tailored to your unique needs and goals ensures optimal. </p>
+        <button class="btn4">Request A Plan</button>
+    </div>
+    <div class="cointer5">
+        <h3 class="h3">Useful Link</h3>
+        <div class="links">
+            <a href="#">Free services</a>
+            <a href="#">Apply for a Jon</a>
+            <a href="#">Terms & condition</a>
+            <a href="#">Our Patner</a>
+            <a href="#">Our Screening Program</a>
+            <a href="#">Services</a>
+            <a href="">FAQ</a>
+            <a href="">News</a>
+        </div>
+        <div class="address">
+            <p><strong>Company Address:</strong></p>
+            <p>123 Health Street, united states,AC 3456</p>
+            <p>Phone: (123) 455-5490</p>
+            <p>Email: contact@healthcompany.com</p>
+    </div>
+    <div class="socialbuttons">
+        <a href="https://www.facebook.com" class="socialbutton">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+        </a>
+        
+        </a>
+        <a href="https://www.instagram.com" class="socialbutton">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com" class="socialbutton">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn">
+        </a>
+
+</body>
+</html>
